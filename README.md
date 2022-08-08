@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @winstonmhango23
 - 👀 I’m interested in python and JavaScript programming
 - 🌱 I’m currently doing flask and django as well as Vue JS and React JS frameworks
-- 💞️ I’m also an active blogger
+- 💞️ I’m also an active technical blogger
+- ✔I have also written two booklets, on Django and another on React.js
 - 📫 I write about and create projects at www.codesnnippets.com
 - See my facebook https://web.facebook.com/winstonmhango23
 - See my Instagram https://www.instagram.com/winstonmhango23/
