@@ -11,3 +11,5 @@
 winstonmhango23/winstonmhango23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+<a href="https://app.daily.dev/winstonmhango23"><img src="https://api.daily.dev/devcards/98cf8ff262eb494c91e8f0e55285bb46.png?r=323" width="400" alt="winston mhango's Dev Card"/></a>
