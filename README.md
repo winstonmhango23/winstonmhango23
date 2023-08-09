@@ -3,7 +3,7 @@
 - 🌱 I’m currently doing flask and django as well as Vue JS and React JS frameworks
 - 💞️ I’m also an active technical blogger
 - ✔I have also written two booklets, on Django and another on React.js
-- 📫 I write about and create projects at www.codessnippets.com
+- 📫 I write about and create projects at www.codessnipets.com
 - See my facebook https://web.facebook.com/winstonmhango23
 - See my Instagram https://www.instagram.com/winstonmhango23/
 
