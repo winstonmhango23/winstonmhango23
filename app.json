@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Community Finance",
+    "slug": "loanmanagementapp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/COFILogo.png",
+    "scheme": "loanmanagementapp",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/COFILogo.png",
+      "infoPlist": {
+        "CFBundleDisplayName": "Community Finance"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/COFILogo.png",
+        "backgroundColor": "#061528"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.winstonmhango23.loanmanagementapp",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/COFILogo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "This app uses your location to capture property locations, show them on the staff map, and provide directions."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/COFILogo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#061528",
+          "dark": {
+            "backgroundColor": "#061528",
+            "image": "./assets/images/COFILogo.png"
+          }
+        }
+      ],
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-notifications",
+      "expo-font",
+      "expo-web-browser",
+      "expo-sharing"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "317ee9f1-5cca-4af9-8dd6-8d2610e4e03c"
+      }
+    },
+    "owner": "tradelineapps"
+  }
+}

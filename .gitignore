@@ -1,0 +1,65 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# generated native folders
+/ios
+/android
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.pem
+
+# Local full-resolution asset backups (too large for Android icons)
+*.fullres.bak
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+app-example
+
+# logs
+*.log
+Untitled
+
+# graphify knowledge graph
+graphify-out/

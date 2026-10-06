@@ -1,0 +1,15 @@
+# Keep EAS upload archives small and fast
+graphify-out/
+android/
+ios/
+dist/
+coverage/
+.pytest_cache/
+.git/
+.expo/
+web-build/
+node_modules/
+*.log
+NUL
+build-list.json
+build-status.json

@@ -1,0 +1,10 @@
+# pnpm 11+: non-auth settings live here (NOT in .npmrc).
+# Hoisted layout is required so Expo/Metro can resolve RN peer packages on Windows.
+packages:
+  - '.'
+nodeLinker: hoisted
+shamefullyHoist: true
+confirmModulesPurge: false
+allowBuilds:
+  dtrace-provider: false
+  unrs-resolver: false

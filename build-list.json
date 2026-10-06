@@ -1,0 +1,119 @@
+﻿[
+  {
+    "id": "b7d0849a-ee47-4874-a94b-bb24164c98db",
+    "status": "IN_QUEUE",
+    "platform": "ANDROID",
+    "artifacts": {},
+    "fingerprint": {
+      "id": "019f60c3-3ae5-7373-b118-c3928ad87ab7",
+      "hash": "40661273f283ee027cef8583a95adbda2690f25d"
+    },
+    "initiatingActor": {
+      "id": "f20dbeca-bc28-4ea6-a18f-19743c68c032",
+      "displayName": "winstonmhango23"
+    },
+    "logFiles": [],
+    "project": {
+      "id": "d2a745f1-bc02-47dd-8669-b99281f7720b",
+      "name": "loanmanagementapp",
+      "slug": "loanmanagementapp",
+      "ownerAccount": {
+        "id": "660180ff-317b-48d9-a9fe-b1d52b275153",
+        "name": "winstonmhango23"
+      }
+    },
+    "distribution": "INTERNAL",
+    "buildProfile": "preview",
+    "sdkVersion": "54.0.0",
+    "appVersion": "1.0.0",
+    "appBuildVersion": "1",
+    "gitCommitHash": "5dff3a718fc84b41aaf337d91f291b240c7684d8",
+    "gitCommitMessage": "fix(mobile): KYC/product prefill and staff loan create auth\n\nPrefill origination from client KYC and loan product bounds; fix staff create 401 caused by /clients redirect dropping Authorization.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+    "priority": "NORMAL",
+    "createdAt": "2026-07-14T13:13:55.957Z",
+    "updatedAt": "2026-07-14T13:13:58.418Z",
+    "expirationDate": "2026-07-28T13:13:56.005Z",
+    "isForIosSimulator": false
+  },
+  {
+    "id": "57167961-2715-471a-ad24-3e15536805e7",
+    "status": "IN_QUEUE",
+    "platform": "ANDROID",
+    "artifacts": {},
+    "fingerprint": {
+      "id": "019f60c3-3ae5-7373-b118-c3928ad87ab7",
+      "hash": "40661273f283ee027cef8583a95adbda2690f25d"
+    },
+    "initiatingActor": {
+      "id": "f20dbeca-bc28-4ea6-a18f-19743c68c032",
+      "displayName": "winstonmhango23"
+    },
+    "logFiles": [],
+    "project": {
+      "id": "d2a745f1-bc02-47dd-8669-b99281f7720b",
+      "name": "loanmanagementapp",
+      "slug": "loanmanagementapp",
+      "ownerAccount": {
+        "id": "660180ff-317b-48d9-a9fe-b1d52b275153",
+        "name": "winstonmhango23"
+      }
+    },
+    "distribution": "INTERNAL",
+    "buildProfile": "preview",
+    "sdkVersion": "54.0.0",
+    "appVersion": "1.0.0",
+    "appBuildVersion": "1",
+    "gitCommitHash": "5dff3a718fc84b41aaf337d91f291b240c7684d8",
+    "gitCommitMessage": "fix(mobile): KYC/product prefill and staff loan create auth\n\nPrefill origination from client KYC and loan product bounds; fix staff create 401 caused by /clients redirect dropping Authorization.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+    "priority": "NORMAL",
+    "createdAt": "2026-07-14T13:13:55.025Z",
+    "updatedAt": "2026-07-14T13:13:58.390Z",
+    "expirationDate": "2026-07-28T13:13:55.154Z",
+    "isForIosSimulator": false
+  },
+  {
+    "id": "817f2292-aac4-4e57-a062-e39a6ac9cfd6",
+    "status": "FINISHED",
+    "platform": "ANDROID",
+    "artifacts": {
+      "buildUrl": "https://expo.dev/artifacts/eas/gZt2Yc6TfFBZJRZokesHyj.apk",
+      "applicationArchiveUrl": "https://expo.dev/artifacts/eas/gZt2Yc6TfFBZJRZokesHyj.apk"
+    },
+    "fingerprint": {
+      "id": "019c9e56-6a13-7a4a-a19e-972e6bb34370",
+      "hash": "7a06c03be7583eb0fb5a900cc3bcc14fa817ea4d"
+    },
+    "initiatingActor": {
+      "id": "f20dbeca-bc28-4ea6-a18f-19743c68c032",
+      "displayName": "winstonmhango23"
+    },
+    "logFiles": [],
+    "project": {
+      "id": "d2a745f1-bc02-47dd-8669-b99281f7720b",
+      "name": "loanmanagementapp",
+      "slug": "loanmanagementapp",
+      "ownerAccount": {
+        "id": "660180ff-317b-48d9-a9fe-b1d52b275153",
+        "name": "winstonmhango23"
+      }
+    },
+    "distribution": "INTERNAL",
+    "buildProfile": "preview",
+    "sdkVersion": "54.0.0",
+    "appVersion": "1.0.0",
+    "appBuildVersion": "1",
+    "gitCommitHash": "9f3880a255b2ca58949045f1ccf8282f92f58993",
+    "gitCommitMessage": "added more loan backend fetching features",
+    "priority": "NORMAL",
+    "createdAt": "2026-02-27T09:53:57.899Z",
+    "updatedAt": "2026-02-27T10:02:49.460Z",
+    "completedAt": "2026-02-27T10:02:46.447Z",
+    "expirationDate": "2026-03-13T09:53:58.065Z",
+    "isForIosSimulator": false,
+    "metrics": {
+      "buildWaitTime": 277,
+      "buildQueueTime": 61601,
+      "buildDuration": 466313
+    }
+  }
+]

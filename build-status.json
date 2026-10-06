@@ -1,0 +1,36 @@
+﻿{
+  "id": "4eaa0cfd-109c-4101-91af-f6ef69eea0b4",
+  "status": "IN_QUEUE",
+  "platform": "ANDROID",
+  "artifacts": {},
+  "fingerprint": {
+    "id": "019f60c3-3ae5-7373-b118-c3928ad87ab7",
+    "hash": "40661273f283ee027cef8583a95adbda2690f25d"
+  },
+  "initiatingActor": {
+    "id": "f20dbeca-bc28-4ea6-a18f-19743c68c032",
+    "displayName": "winstonmhango23"
+  },
+  "logFiles": [],
+  "project": {
+    "id": "d2a745f1-bc02-47dd-8669-b99281f7720b",
+    "name": "loanmanagementapp",
+    "slug": "loanmanagementapp",
+    "ownerAccount": {
+      "id": "660180ff-317b-48d9-a9fe-b1d52b275153",
+      "name": "winstonmhango23"
+    }
+  },
+  "distribution": "INTERNAL",
+  "buildProfile": "preview",
+  "sdkVersion": "54.0.0",
+  "appVersion": "1.0.0",
+  "appBuildVersion": "1",
+  "gitCommitHash": "5dff3a718fc84b41aaf337d91f291b240c7684d8",
+  "gitCommitMessage": "fix(mobile): KYC/product prefill and staff loan create auth\n\nPrefill origination from client KYC and loan product bounds; fix staff create 401 caused by /clients redirect dropping Authorization.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+  "priority": "NORMAL",
+  "createdAt": "2026-07-14T14:21:31.717Z",
+  "updatedAt": "2026-07-14T14:21:33.518Z",
+  "expirationDate": "2026-07-28T14:21:31.795Z",
+  "isForIosSimulator": false
+}

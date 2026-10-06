@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "form_types": {
+    "SME": {
+      "label": "SME / Business Loan",
+      "sections": [
+        {"key": "business", "label": "Business Information"},
+        {"key": "bank", "label": "Bank Details"},
+        {"key": "identity", "label": "Identity"},
+        {"key": "demographics", "label": "Demographics"},
+        {"key": "director", "label": "Director/Shareholder Details"},
+        {"key": "loan", "label": "Loan Details"},
+        {"key": "financials", "label": "Business Financials"},
+        {"key": "referrer", "label": "Referrer"}
+      ],
+      "fields": [
+        {"key": "applicant_business_name", "label": "Applicant (Name of business)", "type": "text", "section": "business", "required": true},
+        {"key": "business_activities", "label": "Business Activity(ies)", "type": "textarea", "section": "business", "required": true},
+        {"key": "other_districts", "label": "List other districts where your business is present", "type": "textarea", "section": "business"},
+        {"key": "account_number", "label": "Account Number", "type": "text", "section": "bank", "required": true},
+        {"key": "account_name", "label": "Account Name", "type": "text", "section": "bank", "required": true},
+        {"key": "account_type", "label": "Account Type", "type": "select", "section": "bank", "options": ["Savings", "Current", "Other"]},
+        {"key": "bank_name", "label": "Bank Name", "type": "text", "section": "bank", "required": true},
+        {"key": "branch_name", "label": "Branch Name", "type": "text", "section": "bank", "required": true},
+        {"key": "id_type", "label": "ID Type", "type": "select", "section": "identity", "options": ["Passport", "Drivers License", "National ID"]},
+        {"key": "id_number", "label": "ID Number", "type": "text", "section": "identity", "required": true},
+        {"key": "id_date_of_issue", "label": "Date of Issue", "type": "date", "section": "identity"},
+        {"key": "id_expiry_date", "label": "Expiry Date", "type": "date", "section": "identity"},
+        {"key": "nationality", "label": "Nationality", "type": "select", "section": "identity", "options": ["Malawian", "Non-Malawian"]},
+        {"key": "nationality_specify", "label": "If Non-Malawian, specify", "type": "text", "section": "identity"},
+        {"key": "village_ta_epa", "label": "Village T/A EPA", "type": "text", "section": "demographics"},
+        {"key": "address", "label": "Address", "type": "textarea", "section": "demographics", "required": true},
+        {"key": "tel", "label": "Tel", "type": "tel", "section": "demographics", "required": true},
+        {"key": "marital_status", "label": "Marital Status", "type": "select", "section": "demographics", "options": ["Single", "Married", "Divorced", "Widowed"]},
+        {"key": "spouse_contacts", "label": "Spouse Contacts", "type": "text", "section": "demographics"},
+        {"key": "director_surname", "label": "Director Surname", "type": "text", "section": "director"},
+        {"key": "director_first_name", "label": "Director First Name", "type": "text", "section": "director"},
+        {"key": "director_other_names", "label": "Director Other Names", "type": "text", "section": "director"},
+        {"key": "director_dob", "label": "Director Date of Birth", "type": "date", "section": "director"},
+        {"key": "director_title", "label": "Title", "type": "select", "section": "director", "options": ["Mr", "Ms", "Dr", "Other"]},
+        {"key": "director_gender", "label": "Gender", "type": "select", "section": "director", "options": ["M", "F"]},
+        {"key": "director_nationality", "label": "Director Nationality", "type": "text", "section": "director"},
+        {"key": "director_tel", "label": "Director Tel", "type": "tel", "section": "director"},
+        {"key": "director_email", "label": "Director Email", "type": "email", "section": "director"},
+        {"key": "director_address", "label": "Director Address", "type": "textarea", "section": "director"},
+        {"key": "loan_requested_mwk", "label": "Loan requested (MWK)", "type": "number", "section": "loan", "required": true},
+        {"key": "maturity_date", "label": "Maturity Date", "type": "date", "section": "loan", "required": true},
+        {"key": "loan_purpose", "label": "Loan purpose", "type": "textarea", "section": "loan", "required": true},
+        {"key": "proposed_collateral", "label": "Proposed Collateral", "type": "textarea", "section": "loan"},
+        {"key": "repayment_method", "label": "Proposed repayment", "type": "select", "section": "loan", "options": ["Cash", "Bank Transfer", "Cheque", "Other"]},
+        {"key": "loan_cycle", "label": "Loan cycle", "type": "text", "section": "loan"},
+        {"key": "annual_turnover_mwk", "label": "Current Annual turnover (MWK)", "type": "number", "section": "financials"},
+        {"key": "projected_net_profit_mwk", "label": "Projected Net Profit for next two years (MWK)", "type": "number", "section": "financials"},
+        {"key": "referrer_name", "label": "Name of the referrer", "type": "text", "section": "referrer"},
+        {"key": "referrer_company", "label": "Name of the company of the referrer (if applicable)", "type": "text", "section": "referrer"}
+      ]
+    },
+    "INDIVIDUAL": {
+      "label": "Individual / Personal Loan",
+      "sections": [
+        {"key": "applicant", "label": "Applicant Details"},
+        {"key": "employment", "label": "Employment"},
+        {"key": "bank", "label": "Bank Details"},
+        {"key": "loan", "label": "Loan Details"}
+      ],
+      "fields": [
+        {"key": "full_name", "label": "Full Name", "type": "text", "section": "applicant", "required": true},
+        {"key": "client_id", "label": "Client ID", "type": "text", "section": "applicant"},
+        {"key": "national_id", "label": "National ID Number", "type": "text", "section": "applicant", "required": true},
+        {"key": "date_of_birth", "label": "Date of Birth", "type": "date", "section": "applicant", "required": true},
+        {"key": "gender", "label": "Gender", "type": "select", "section": "applicant", "options": ["Male", "Female"]},
+        {"key": "marital_status", "label": "Marital Status", "type": "select", "section": "applicant", "options": ["Single", "Married", "Divorced", "Widowed"]},
+        {"key": "address", "label": "Address", "type": "textarea", "section": "applicant", "required": true},
+        {"key": "phone", "label": "Phone", "type": "tel", "section": "applicant", "required": true},
+        {"key": "email", "label": "Email", "type": "email", "section": "applicant"},
+        {"key": "employer_name", "label": "Employer Name", "type": "text", "section": "employment"},
+        {"key": "position", "label": "Position/Occupation", "type": "text", "section": "employment"},
+        {"key": "monthly_income", "label": "Monthly Income (MWK)", "type": "number", "section": "employment"},
+        {"key": "employment_duration", "label": "Employment Duration", "type": "text", "section": "employment"},
+        {"key": "account_number", "label": "Bank Account Number", "type": "text", "section": "bank"},
+        {"key": "bank_name", "label": "Bank Name", "type": "text", "section": "bank"},
+        {"key": "loan_requested_mwk", "label": "Loan Amount Requested (MWK)", "type": "number", "section": "loan", "required": true},
+        {"key": "requested_term_months", "label": "Loan Term (months)", "type": "number", "section": "loan", "required": true},
+        {"key": "loan_purpose", "label": "Loan Purpose", "type": "textarea", "section": "loan", "required": true},
+        {"key": "proposed_collateral", "label": "Proposed Collateral (if any)", "type": "textarea", "section": "loan"}
+      ]
+    },
+    "AGRICULTURAL": {
+      "label": "Agricultural Loan",
+      "sections": [
+        {"key": "applicant", "label": "Applicant Details"},
+        {"key": "bank", "label": "Bank Details"},
+        {"key": "loan", "label": "Loan Details"},
+        {"key": "agric", "label": "Agricultural Details"}
+      ],
+      "fields": [
+        {"key": "applicant_name", "label": "Applicant Name", "type": "text", "section": "applicant", "required": true},
+        {"key": "organization", "label": "Organization/Group Name", "type": "text", "section": "applicant"},
+        {"key": "village_ta_epa", "label": "Village T/A EPA", "type": "text", "section": "applicant"},
+        {"key": "district", "label": "District", "type": "district", "section": "applicant"},
+        {"key": "phone", "label": "Phone", "type": "tel", "section": "applicant", "required": true},
+        {"key": "national_id", "label": "National ID", "type": "text", "section": "applicant"},
+        {"key": "account_number", "label": "Account Number", "type": "text", "section": "bank"},
+        {"key": "bank_name", "label": "Bank Name", "type": "text", "section": "bank"},
+        {"key": "loan_requested_mwk", "label": "Loan Amount Requested (MWK)", "type": "number", "section": "loan", "required": true},
+        {"key": "loan_purpose", "label": "Loan Purpose", "type": "select", "section": "loan", "options": ["Inputs", "Equipment", "Seeds", "Fertilizer", "Other"], "required": true},
+        {"key": "loan_purpose_other", "label": "Specify loan purpose", "type": "text", "section": "loan", "visible_when": {"field": "loan_purpose", "equals": "Other"}},
+        {"key": "season", "label": "Farming Season", "type": "season", "section": "loan"},
+        {"key": "land_size_hectares", "label": "Land Size (hectares)", "type": "number", "section": "agric"},
+        {"key": "crops", "label": "Crops to be grown", "type": "textarea", "section": "agric"},
+        {"key": "proposed_collateral", "label": "Proposed Collateral", "type": "textarea", "section": "loan"}
+      ]
+    }
+  }
+}

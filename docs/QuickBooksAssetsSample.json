@@ -1,0 +1,182 @@
+[
+  {
+    "AccountNumber": "1500",
+    "AccountName": "Cash Registers",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Furniture and Fixtures",
+    "Description": "Retail cash registers",
+    "OpeningBalance": 4500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1510",
+    "AccountName": "Office Furniture",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Furniture and Fixtures",
+    "Description": "Office desks and chairs",
+    "OpeningBalance": 12500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1520",
+    "AccountName": "Office Computers",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Desktop computers and laptops",
+    "OpeningBalance": 18500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1530",
+    "AccountName": "Computer Servers",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Company servers",
+    "OpeningBalance": 32000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1540",
+    "AccountName": "Network Equipment",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Routers, switches and firewalls",
+    "OpeningBalance": 9800.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1550",
+    "AccountName": "Office Equipment",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Printers, scanners and copiers",
+    "OpeningBalance": 7600.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1560",
+    "AccountName": "Vehicles",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Vehicles",
+    "Description": "Company delivery vehicles",
+    "OpeningBalance": 68500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1570",
+    "AccountName": "Warehouse Equipment",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Forklifts and pallet jacks",
+    "OpeningBalance": 41000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1580",
+    "AccountName": "Manufacturing Equipment",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Production machinery",
+    "OpeningBalance": 150000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1590",
+    "AccountName": "Land",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Land",
+    "Description": "Company-owned land",
+    "OpeningBalance": 250000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1600",
+    "AccountName": "Buildings",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Buildings",
+    "Description": "Head office building",
+    "OpeningBalance": 850000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1610",
+    "AccountName": "Building Improvements",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Leasehold Improvements",
+    "Description": "Office renovations and upgrades",
+    "OpeningBalance": 95000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1620",
+    "AccountName": "Leasehold Improvements",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Leasehold Improvements",
+    "Description": "Tenant improvements",
+    "OpeningBalance": 38000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1630",
+    "AccountName": "Conference Room Furniture",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Furniture and Fixtures",
+    "Description": "Conference tables and seating",
+    "OpeningBalance": 14500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1640",
+    "AccountName": "POS Systems",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Point-of-sale terminals",
+    "OpeningBalance": 11200.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1650",
+    "AccountName": "Security Systems",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "CCTV and access control systems",
+    "OpeningBalance": 13500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1660",
+    "AccountName": "Solar Power System",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Solar panels and inverters",
+    "OpeningBalance": 72000.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1670",
+    "AccountName": "Storage Shelving",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Furniture and Fixtures",
+    "Description": "Warehouse shelving units",
+    "OpeningBalance": 18400.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1680",
+    "AccountName": "Tools and Machinery",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Workshop tools and machines",
+    "OpeningBalance": 27500.00,
+    "AsOfDate": "2026-01-01"
+  },
+  {
+    "AccountNumber": "1690",
+    "AccountName": "Construction Equipment",
+    "AccountType": "Fixed Asset",
+    "DetailType": "Machinery and Equipment",
+    "Description": "Heavy construction equipment",
+    "OpeningBalance": 225000.00,
+    "AsOfDate": "2026-01-01"
+  }
+]

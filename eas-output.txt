@@ -1,0 +1,9 @@
+﻿Nonexistent flag: --no-analytics
+See more help with --help
+node.exe :     Error: build command failed.
+At C:\nvm4w\nodejs\eas.ps1:16 char:5
++     & "$basedir/node$exe"  "$basedir/node_modules/eas-cli/bin/run" $a ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (    Error: build command failed.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

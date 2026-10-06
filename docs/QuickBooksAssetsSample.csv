@@ -1,0 +1,21 @@
+AccountNumber,AccountName,AccountType,DetailType,Description,OpeningBalance,AsOfDate
+1500,Cash Registers,Fixed Asset,Furniture and Fixtures,Retail cash registers,4500.00,2026-01-01
+1510,Office Furniture,Fixed Asset,Furniture and Fixtures,Office desks and chairs,12500.00,2026-01-01
+1520,Office Computers,Fixed Asset,Machinery and Equipment,Desktop computers and laptops,18500.00,2026-01-01
+1530,Computer Servers,Fixed Asset,Machinery and Equipment,Company servers,32000.00,2026-01-01
+1540,Network Equipment,Fixed Asset,Machinery and Equipment,Routers switches and firewalls,9800.00,2026-01-01
+1550,Office Equipment,Fixed Asset,Machinery and Equipment,Printers scanners and copiers,7600.00,2026-01-01
+1560,Vehicles,Fixed Asset,Vehicles,Company delivery vehicles,68500.00,2026-01-01
+1570,Warehouse Equipment,Fixed Asset,Machinery and Equipment,Forklifts and pallet jacks,41000.00,2026-01-01
+1580,Manufacturing Equipment,Fixed Asset,Machinery and Equipment,Production machinery,150000.00,2026-01-01
+1590,Land,Fixed Asset,Land,Company owned land,250000.00,2026-01-01
+1600,Buildings,Fixed Asset,Buildings,Head office building,850000.00,2026-01-01
+1610,Building Improvements,Fixed Asset,Leasehold Improvements,Office renovations and upgrades,95000.00,2026-01-01
+1620,Leasehold Improvements,Fixed Asset,Leasehold Improvements,Tenant improvements,38000.00,2026-01-01
+1630,Furniture - Conference Rooms,Fixed Asset,Furniture and Fixtures,Conference tables and seating,14500.00,2026-01-01
+1640,POS Systems,Fixed Asset,Machinery and Equipment,Point of sale terminals,11200.00,2026-01-01
+1650,Security Systems,Fixed Asset,Machinery and Equipment,CCTV and access control systems,13500.00,2026-01-01
+1660,Solar Power System,Fixed Asset,Machinery and Equipment,Solar panels and inverters,72000.00,2026-01-01
+1670,Storage Shelving,Fixed Asset,Furniture and Fixtures,Warehouse shelving units,18400.00,2026-01-01
+1680,Tools and Machinery,Fixed Asset,Machinery and Equipment,Workshop tools and machines,27500.00,2026-01-01
+1690,Construction Equipment,Fixed Asset,Machinery and Equipment,Heavy construction equipment,225000.00,2026-01-01
